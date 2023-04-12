@@ -1,0 +1,19 @@
+:root {
+  --color-primary: #4370df;
+  --color-primary-darker: #2a58d1;
+  --icon-size: 100px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

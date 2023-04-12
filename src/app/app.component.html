@@ -1,0 +1,9 @@
+<div class="icon-container">
+  <fa-icon *ngIf="icon; else placeholder" [icon]="icon">
+  </fa-icon>
+</div>
+<button type="button" class="button" (click)="changeIcon()">{{ buttonTitle }}</button>
+
+<ng-template #placeholder>
+  <app-placeholder></app-placeholder>
+</ng-template>
